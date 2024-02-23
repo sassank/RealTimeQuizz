@@ -14,3 +14,21 @@ server.listen(PORT, () => {
 });
 
 // Socket.IO logic goes here
+io.on('connection', (socket) => {
+    console.log('A user connected');
+
+    socket.on('disconnect', () => {
+        console.log('User disconnected');
+    });
+
+    // Handle quiz events
+    socket.on('startQuiz', () => {
+        // Logic to start quiz
+        io.emit('quizStarted', /* quizData */);
+    });
+
+    socket.on('submitAnswer', (answer) => {
+        // Logic to handle submitted answer
+        io.emit('answerSubmitted', /* resultData */);
+    });
+});
