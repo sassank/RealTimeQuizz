@@ -1,0 +1,8 @@
+{"questions":[
+	{"question": "Quelle est la capitale de la France ?", "choices": ["Paris", "Sofia", "Shanghai", "Londres"], "correctAnswer":0},
+	{"question": "À quelle famille d'instruments de musique la trompette appartient-elle ?", "choices": ["les bois", "les idiophones", "les cordes", "les cuivres"], "correctAnswer":1},
+	{"question": "Quel ingénieur a conçu un monument parisien ?", "choices": ["Leonard De Vinci", "Henri Labrouste", "Frank Gehry", "Gustave Eiffel"], "correctAnswer":3},
+	{"question": "Quel joueur de tennis est connu pour avoir gagné Roland Garros 14 fois ?", "choices": ["Federer", "Nadal", "Djokovic", "Murray"], "correctAnswer":1}
+]}
+
+
